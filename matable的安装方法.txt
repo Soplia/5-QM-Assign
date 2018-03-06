@@ -1,1 +1,10 @@
+
 Hello World
+
+具体破解过程： 
+1. 把ISO文件里面的东西全部提取出来，别挂载光驱。 
+2. 找到那个java/jar/install.jar，解压，将com\mathworks\install下的InstallerBuilderImpl.class和ValidatedFikImpl.class替换为压缩包里面的东西。 用7zip打开，将替换的文件拖入，确认替换即可。
+3. 断网，安装，选文件安装密钥，安装密钥为11111111111111111111。记得断网！ 
+4. 覆盖MATLAB\R2014b\bin\win64\libmwservices.dll文件 
+5. OK完成。
+
